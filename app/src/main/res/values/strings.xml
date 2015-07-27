@@ -1,0 +1,21 @@
+<resources>
+    <!--Activity Title-->
+    <string name="app_name">查藥系統</string>
+    <string name="title_activity_display_layout">查詢結果</string>
+    <string name="title_activity_detail_activity">詳細資訊</string>
+    <!--小視窗文字 -->
+    <string name="DialogTitle">唉呀!</string>
+    <string name="DialogExitMessage">你確定要離開?</string>
+    <string name="DialogYes">"是的"</string>
+    <string name="DialogNo">"不是"</string>
+    <string name="DialogNetMessage">好像出了什麼問題請確認網路是否開啟</string>
+    <string name="DialogNullMessage">沒有查詢到任何藥品資訊</string>
+    <string name="DialogNoString">請輸入藥品</string>
+    <string name="DialogWarn">擇一選擇查詢</string>
+    <string name="DialogAboutMsg">此APP開發查詢嘉鏵藥品品項及價格，開發者：JunChiChen</string>
+    <string name="DialogAbout">關於</string>
+    <string name="DialogAboutVers">目前版本：1.7</string>
+    <string name="DialogVers">版本</string>
+    <string name="DialogLoading">載入資料中</string>
+    <string name="DialogNoHiCode">無健保給付！</string>
+</resources>
