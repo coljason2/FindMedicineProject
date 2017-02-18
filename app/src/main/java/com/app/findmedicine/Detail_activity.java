@@ -15,6 +15,7 @@ import com.app.findmedicine.entity.data;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+import org.jsoup.select.Elements;
 import org.w3c.dom.Text;
 
 import java.io.IOException;
@@ -92,8 +93,13 @@ public class Detail_activity extends GenericActionActivity {
 
         protected void loadMsg() {
             try {
+                Log.e("HidCode",HidCode);
                 doc = Jsoup.connect(url + HidCode).get();
-                LicId = doc.getElementById("gvQuery1Data_ctl02_lblQ1ID").getElementsByTag("a").toString().substring(67, 75);
+               // Log.e("doc rul",doc.toString());
+                org.jsoup.nodes.Element el = doc.select("input[name=gvQuery1Data$ctl02$hid_doh_id").first();
+                String  LicId = el.attr("value");
+               // LicId = doc.getElementById("gvQuery1Data_ctl02_hid_doh_id");
+                Log.e("LicId",LicId);
                 doc = Jsoup.connect(mainurl + LicId).get();
                 // Log.e("Doc", doc.toString());
             } catch (IOException e) {
