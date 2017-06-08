@@ -23,6 +23,7 @@ import java.util.regex.Pattern;
 
 /**
  * Created by JunChiChen on 2015/7/21.
+ * // 2017/06/08 fix
  */
 public class getQuery {
     private final String getdrug = "http://www.chahwa.com.tw/order.php?act=query&&drug=";
@@ -102,7 +103,7 @@ public class getQuery {
         String cookiePara = "";
         try {
             Connection.Response res = Jsoup
-                    .connect("https://www.chahwa.com.tw/user.php")
+                    .connect("http://www.chahwa.com.tw/user.php")
                     .data("username", form.getUsername(), "password",
                             form.getPassword(), "wsrc", form.getWsrc(), "act",
                             form.getAct(), "back_act", form.getBack_act())
@@ -113,7 +114,7 @@ public class getQuery {
             e.printStackTrace();
             getCookies();
         }
-        Log.d("Cookie", cookies.toString());
+        Log.d("Cookie=", cookies.toString());
         for (String cookie : cookies.keySet()) {
             cookiePara = cookiePara + cookie.toString() + "="
                     + cookies.get(cookie) + ";";
