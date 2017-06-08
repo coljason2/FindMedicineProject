@@ -23,7 +23,7 @@ import java.util.regex.Pattern;
 
 /**
  * Created by JunChiChen on 2015/7/21.
- * // 2017/06/08 fix
+ * // 2017/06/08 fix project
  */
 public class getQuery {
     private final String getdrug = "http://www.chahwa.com.tw/order.php?act=query&&drug=";
