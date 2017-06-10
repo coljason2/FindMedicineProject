@@ -34,6 +34,7 @@ public class getHiQuery {
                 if (index >= 0) {
                     m.setName(n.getElementById("gvQuery1Data_lblNameChinese_" + index).text());
                     m.setHidPrice("健保價：" + n.getElementById("gvQuery1Data_lblPrice_" + index).text());
+                    m.setCompany(n.getElementById("gvQuery1Data_lblSales_" + index).text());
                     m.setStartyear("期間：" + n.getElementById("gvQuery1Data_lblstartEndDate_" + index).text());
                     m.setCode("健保碼：" + n.getElementById("gvQuery1Data_hlID_" + index).text());
                     objects.add(m);
@@ -56,6 +57,7 @@ public class getHiQuery {
                 if (index >= 0) {
                     m.setName(n.getElementById("gvQuery1Data_lblNameChinese_" + index).text());
                     m.setHidPrice("健保價：" + n.getElementById("gvQuery1Data_lblPrice_" + index).text());
+                    m.setCompany(n.getElementById("gvQuery1Data_lblSales_" + index).text());
                     m.setStartyear("期間：" + n.getElementById("gvQuery1Data_lblstartEndDate_" + index).text());
                     m.setCode("健保碼：" + n.getElementById("gvQuery1Data_hlID_" + index).text());
                     objects.add(m);

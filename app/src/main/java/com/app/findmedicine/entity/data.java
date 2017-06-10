@@ -8,10 +8,18 @@ public class data implements java.io.Serializable {
     private String name;
     private String price;
     private String code;
+    private String company;
     private String hidPrice;
     private String startyear;
     private String endyear;
 
+    public String getCompany() {
+        return company;
+    }
+
+    public void setCompany(String company) {
+        this.company = company;
+    }
     public String getStartyear() {
         return startyear;
     }

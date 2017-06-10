@@ -47,12 +47,13 @@ public class dataHiAdapter extends ArrayAdapter<data> {
         TextView txtprice = (TextView) itemView.findViewById(R.id.txtHiPrice);
         TextView txtcode = (TextView) itemView.findViewById(R.id.txtHicode);
         TextView hidYear = (TextView) itemView.findViewById(R.id.txtEndYear);
+        TextView hcompany = (TextView) itemView.findViewById(R.id.txtHCompany);
         // txtNum.setText((position + 1) + "");
         txtname.setText(item.getName());
         txtprice.setText(item.getHidPrice());
         txtcode.setText(item.getCode());
         hidYear.setText(item.getStartyear());
-
+        hcompany.setText(item.getCompany());
 
         return itemView;
     }

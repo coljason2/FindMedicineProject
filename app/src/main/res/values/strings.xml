@@ -15,7 +15,7 @@
     <string name="DialogWarn">擇一選擇查詢</string>
     <string name="DialogAboutMsg">此APP開發查詢嘉鏵藥品品項及價格，開發者：JunChiChen</string>
     <string name="DialogAbout">關於</string>
-    <string name="DialogAboutVers">目前版本：1.7</string>
+    <string name="DialogAboutVers">目前版本：2.0</string>
     <string name="DialogVers">版本</string>
     <string name="DialogLoading">載入資料中</string>
     <string name="DialogNoHiCode">無健保給付！</string>
