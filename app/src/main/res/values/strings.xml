@@ -1,7 +1,8 @@
 <resources>
     <!--Activity Title-->
     <string name="app_name">查藥系統</string>
-    <string name="title_activity_display_layout">查詢結果</string>
+    <string name="title_activity_display_layout">嘉華查詢結果</string>
+    <string name="title_activity_display_hicode_layout">健保查詢結果</string>
     <string name="title_activity_detail_activity">詳細資訊</string>
     <!--小視窗文字 -->
     <string name="DialogTitle">唉呀!</string>

@@ -98,7 +98,7 @@ public class getQuery {
         return context;
     }
 
-    public String getCookies()  {
+    public String getCookies() {
         Map<String, String> cookies = null;
         String cookiePara = "";
         try {
@@ -108,7 +108,7 @@ public class getQuery {
                             form.getPassword(), "wsrc", form.getWsrc(), "act",
                             form.getAct(), "back_act", form.getBack_act())
                     .method(Connection.Method.POST).execute();
-            Log.d("Connect",res.toString());
+            Log.d("Connect", res.toString());
             cookies = res.cookies();
         } catch (Exception e) {
             e.printStackTrace();

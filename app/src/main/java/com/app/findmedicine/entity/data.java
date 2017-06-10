@@ -2,12 +2,32 @@ package com.app.findmedicine.entity;
 
 /**
  * Created by JunChiChen on 2015/7/17.
+ * Chang   by JunChiChen on 2017/6/9.
  */
 public class data implements java.io.Serializable {
     private String name;
     private String price;
     private String code;
     private String hidPrice;
+    private String startyear;
+    private String endyear;
+
+    public String getStartyear() {
+        return startyear;
+    }
+
+    public void setStartyear(String startyear) {
+        this.startyear = startyear;
+    }
+
+    public String getEndyear() {
+        return endyear;
+    }
+
+    public void setEndyear(String endyear) {
+        this.endyear = endyear;
+    }
+
 
     public String getHidPrice() {
         return hidPrice;
@@ -25,8 +45,6 @@ public class data implements java.io.Serializable {
     public void setCode(String code) {
         this.code = code;
     }
-
-
 
 
     public String getPrice() {

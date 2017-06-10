@@ -19,6 +19,7 @@ import com.app.findmedicine.R;
 public class GenericActionActivity extends ActionBarActivity {
     public static boolean isConnectNetwork = false;
     public static ConnectionDetector connectCheck;
+    public static int action_type;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -15,7 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:hint="藥品名稱" />
+        android:hint="藥名稱(嘉鏵)" />
 
     <EditText
         android:id="@+id/txtCode"
@@ -24,7 +24,23 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:digits="0123456789abcdefghigklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
-        android:hint="健保碼"
+        android:hint="健保碼(嘉鏵)"
+        android:inputType="none" />
+    <EditText
+        android:id="@+id/HieditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="藥名稱(健保局)" />
+
+    <EditText
+        android:id="@+id/HitxtCode"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:digits="0123456789abcdefghigklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        android:hint="健保碼(健保局)"
         android:inputType="none" />
 
     <Button
