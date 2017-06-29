@@ -21,7 +21,7 @@ public class getHiQuery {
     private final String urlcode = "http://www.nhi.gov.tw/Query/query1_list.aspx?Q1ID=";
     private final String urlname = "http://www.nhi.gov.tw/Query/query1_list.aspx?NameChinese=";
     // private final String time = "&StartYYY=" + (cal.get(Calendar.YEAR) - 1911);
-    private final String type = "&Type=迄今";
+    private final String type = "&Type=迄今"; //最新的
     private List<data> objects = new ArrayList<data>();
     int index = -1;
 

@@ -1,0 +1,113 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:2:1-60:12
+	package
+		ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:3:5-35
+		INJECTED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml
+		INJECTED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml
+		INJECTED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml
+		INJECTED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:7:5-84
+	android:name
+		ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:7:22-81
+uses-permission#android.permission.INSTALL_PACKAGES
+ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:9:5-75
+	android:name
+		ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:9:22-72
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:11:22-76
+application
+ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:13:5-58:19
+MERGED from [com.android.support:appcompat-v7:21.0.3] F:\FindMedicineProject\FindMedicineProject\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:support-v4:21.0.3] F:\FindMedicineProject\FindMedicineProject\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\AndroidManifest.xml:16:5-19
+	android:label
+		ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:16:9-41
+	android:allowBackup
+		ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:14:9-35
+	android:icon
+		ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:15:9-43
+	android:theme
+		ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:17:9-40
+activity#com.app.findmedicine.SplashScreen
+ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:18:9-26:20
+	android:label
+		ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:20:13-45
+	android:theme
+		ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:21:13-71
+	android:name
+		ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:19:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:22:13-25:29
+action#android.intent.action.MAIN
+ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:24:27-74
+activity#com.app.findmedicine.MainActivity
+ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:27:9-33:20
+	android:label
+		ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:29:13-45
+	android:name
+		ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:28:13-41
+intent-filter#android.intent.category.default
+ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:30:13-32:29
+category#android.intent.category.default
+ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:31:17-76
+	android:name
+		ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:31:27-73
+activity#com.app.findmedicine.DisplayLayoutActivity
+ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:34:9-41:20
+	android:label
+		ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:36:13-66
+	android:parentActivityName
+		ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:37:13-55
+	android:name
+		ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:35:13-50
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:38:13-40:69
+	android:value
+		ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:40:17-66
+	android:name
+		ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:39:17-63
+activity#com.app.findmedicine.HiDisplayLayoutActivity
+ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:42:9-49:20
+	android:label
+		ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:44:13-73
+	android:parentActivityName
+		ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:45:13-55
+	android:name
+		ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:43:13-52
+activity#com.app.findmedicine.Detail_activity
+ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:50:9-57:20
+	android:label
+		ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:52:13-67
+	android:parentActivityName
+		ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:53:13-64
+	android:name
+		ADDED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml:51:13-44
+uses-sdk
+INJECTED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:21.0.3] F:\FindMedicineProject\FindMedicineProject\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:support-v4:21.0.3] F:\FindMedicineProject\FindMedicineProject\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\AndroidManifest.xml:15:5-42
+	android:targetSdkVersion
+		INJECTED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml
+		INJECTED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml
+		INJECTED from F:\FindMedicineProject\FindMedicineProject\app\src\main\AndroidManifest.xml

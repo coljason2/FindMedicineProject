@@ -1,13 +1,11 @@
 package com.app.findmedicine;
 
-import android.app.AlertDialog;
+
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.AsyncTask;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Menu;
 import android.widget.TextView;
 
 import com.app.findmedicine.comman.GenericActionActivity;
@@ -15,8 +13,7 @@ import com.app.findmedicine.entity.data;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-import org.jsoup.select.Elements;
-import org.w3c.dom.Text;
+
 
 import java.io.IOException;
 
@@ -93,8 +90,8 @@ public class Detail_activity extends GenericActionActivity {
 
         protected void loadMsg() {
             try {
-                Log.e("HidCode",HidCode);
-                doc = Jsoup.connect(url + HidCode).get();
+                Log.e("HidCode",HidCode.replace("健保碼：",""));
+                doc = Jsoup.connect(url + HidCode.replace("健保碼：","")).get();
                // Log.e("doc rul",doc.toString());
                 org.jsoup.nodes.Element el = doc.select("input[name=gvQuery1Data$ctl02$hid_doh_id").first();
                 String  LicId = el.attr("value");

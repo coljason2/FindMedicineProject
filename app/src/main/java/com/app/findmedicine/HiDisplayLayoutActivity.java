@@ -11,7 +11,6 @@ import android.widget.ListView;
 
 import com.app.findmedicine.comman.GenericActionActivity;
 import com.app.findmedicine.entity.data;
-import com.app.findmedicine.entity.dataAdapter;
 import com.app.findmedicine.entity.dataHiAdapter;
 import com.app.findmedicine.entity.getHiQuery;
 
@@ -74,7 +73,33 @@ public class HiDisplayLayoutActivity extends GenericActionActivity {
                 dataHiAdapter Hiadapter =
                        new dataHiAdapter(HiDisplayLayoutActivity.this, R.layout.layout_himed, objects);
               list.setAdapter(Hiadapter);
+                //click item
+                list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                        isConnectNetwork = connectCheck.isConnectingToInternet();
+                        Intent detailintent = new Intent(HiDisplayLayoutActivity.this, Detail_activity.class);
+                        data med = (data) parent.getAdapter().getItem(position);
 
+                        if (isConnectNetwork) {
+                            if (med.getCode().equals("無健保給付") ||
+                                    med.getHidPrice().equals("") ||
+                                    med.getCode().equals("生活用品")) {
+                                new AlertDialog.Builder(HiDisplayLayoutActivity.this)
+                                        .setTitle(R.string.DialogTitle)
+                                        .setMessage(R.string.DialogNoHiCode)
+                                        .setPositiveButton(R.string.DialogYes, null)
+                                        .setCancelable(false)
+                                        .show();
+                            } else {
+                                detailintent.putExtra("med", med);
+                                startActivity(detailintent);
+                            }
+                        } else {
+                            showNetWorkErrorMsg();
+                        }
+                    }
+                });
             }
         }
 

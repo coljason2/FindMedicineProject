@@ -1,0 +1,7 @@
+#Thu Jun 29 15:29:50 CST 2017
+base.0=F\:\\FindMedicineProject\\FindMedicineProject\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_4b70e5932a2dc97863b62b98da86db4c7d7ccea9
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=F\:\\FindMedicineProject\\FindMedicineProject\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_4b1e647ba84acc1633a96c1c32bec4c6fe48334c\\classes.dex
+base.1=F\:\\FindMedicineProject\\FindMedicineProject\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_4b1e647ba84acc1633a96c1c32bec4c6fe48334c
+file.0=F\:\\FindMedicineProject\\FindMedicineProject\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_4b70e5932a2dc97863b62b98da86db4c7d7ccea9\\classes.dex
